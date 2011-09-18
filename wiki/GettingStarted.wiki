@@ -1,23 +1,24 @@
-#summary How to get started with IronLab.
+#summary How to get started with !IronLab.
 
 = Requirements =
-The IronPython Console works either with Visual Studio 2008 or Visual Studio 2010. Solution files for both of these exist.
+The !IronPython Console works either with Visual Studio 2008 or Visual Studio 2010. Solution files for both of these exist.
 
-To use NumPy and SciPy .NET with the console, Visual Studio 2010 is required (IronPython 2.7; .NET 4.0 onwards).
+To use !NumPy and !SciPy .NET with the console, Visual Studio 2010 is required (IronPython 2.7; .NET 4.0 onwards).
 
 The latest project code is not yet available as a set of binaries.
 
-Direct3D and Direct3D acceleration require SlimDX, End User Runtime available [http://slimdx.org/download.php here]. Other functionality should work fine without this.
+Direct3D and Direct3D acceleration require !SlimDX, End User Runtime available [http://slimdx.org/download.php here]. Other functionality should work fine without this.
 
 = Build from source =
 == Basic build ==
   # Download complete source code from Trunk
   # Start Visual Studio 2008 or Visual Studio 2010 solution file and build all.
-  # Set IronPythonConsole as start-up project and run.
-  # PlotSample gives some examples of using the IronPlot library from C# rather than from IronPython.
+  # Set !IronPythonConsole as start-up project and run.
+  # !PlotSample gives some examples of using the IronPlot library from C# rather than from IronPython.
 
-== Adding NumPy and SciPy ==
-Copy your IronPython 2.7 installation folders (including NumPy and SciPy)
+== Adding !NumPy and !SciPy ==
+The easiest way to get started is from an existing !IronPython installation that includes !NumPy and !SciPy, copying the required packages.
+Copy your !IronPython 2.7 installation folders (including NumPy and SciPy)
 DLLs, Doc, Lib into the build bin directory.
 copy ILabPythonLib\ironplot folder into the newly copied bin\Lib\site-packages
 Try:
@@ -25,6 +26,5 @@ Try:
 import numpy as np
 import ironplot as ip
 ip.plot(np.sin(np.arange(0, 10, 0.1)))
-<hello target="world"/>
 </code>
 then Examples\NumpyPlot content
