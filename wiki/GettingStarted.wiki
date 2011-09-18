@@ -1,0 +1,9 @@
+#summary How to obtain a working version.
+
+= Requirements =
+The IronPython Console works either with Visual Studio 2008 or Visual Studio 2010. Solution files for both of these exist.
+
+To use NumPy and SciPy .NET with the console, Visual Studio 2010 is required (.NET 4.0 onwards).
+
+= Use from source =
+
