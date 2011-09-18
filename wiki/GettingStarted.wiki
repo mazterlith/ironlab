@@ -7,14 +7,14 @@ To use !NumPy and !SciPy .NET with the console, Visual Studio 2010 is required (
 
 The latest project code is not yet available as a set of binaries.
 
-Direct3D and Direct2D acceleration require !SlimDX, End User Runtime, available [http://slimdx.org/download.php here]. Other functionality should work fine without this.
+Direct3D and Direct2D acceleration require SlimDX, End User Runtime, available [http://slimdx.org/download.php here]. Other functionality should work fine without this.
 
 = Build from source =
 == Basic build ==
   # Download complete source code from Trunk
   # Start Visual Studio 2008 or Visual Studio 2010 solution file and build all.
   # Set !IronPythonConsole as start-up project and run.
-  # !PlotSample gives some examples of using the IronPlot library from C# rather than from !IronPython.
+  # !PlotSample gives some examples of using the !IronPlot library from C# rather than from !IronPython.
 
 == Adding !NumPy and !SciPy ==
 The easiest way to get started is from an existing !IronPython installation that includes !NumPy and !SciPy, copying the required packages.
@@ -27,4 +27,4 @@ import numpy as np
 import ironplot as ip
 ip.plot(np.sin(np.arange(0, 10, 0.1)))
 </code>
-then look at Examples\!NumpyPlot for more examples.
+then look at Examples\NumpyPlot for more examples.
