@@ -11,7 +11,7 @@ Direct3D and Direct2D acceleration require SlimDX, End User Runtime, available [
 
 = Build from source =
 == Basic build ==
-  # Download complete source code from Trunk
+  # Download complete source code from Trunk.
   # Start Visual Studio 2008 or Visual Studio 2010 solution file and build all.
   # Set !IronPythonConsole as start-up project and run.
   # !PlotSample gives some examples of using the !IronPlot library from C# rather than from !IronPython.
@@ -19,7 +19,7 @@ Direct3D and Direct2D acceleration require SlimDX, End User Runtime, available [
 == Adding !NumPy and !SciPy ==
 The easiest way to get started is from an existing !IronPython installation that includes !NumPy and !SciPy, copying the required packages.
 Copy your !IronPython 2.7 installation folders (including !NumPy and !SciPy)
-DLLs, Doc, Lib into the build bin directory.
+*DLLs, Doc, Lib* into the build bin directory.
 copy ILabPythonLib\ironplot folder into the newly copied bin\Lib\site-packages
 Try:
 <code language="py">
@@ -27,4 +27,4 @@ import numpy as np
 import ironplot as ip
 ip.plot(np.sin(np.arange(0, 10, 0.1)))
 </code>
-then look at Examples\NumpyPlot for more examples.
+to check this is working. Then look at Examples\!NumpyPlot for more examples.
