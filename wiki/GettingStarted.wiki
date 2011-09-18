@@ -21,7 +21,10 @@ Copy your IronPython 2.7 installation folders (including NumPy and SciPy)
 DLLs, Doc, Lib into the build bin directory.
 copy ILabPythonLib\ironplot folder into the newly copied bin\Lib\site-packages
 Try:
+<code language="py">
 import numpy as np
 import ironplot as ip
 ip.plot(np.sin(np.arange(0, 10, 0.1)))
+<hello target="world"/>
+</code>
 then Examples\NumpyPlot content
