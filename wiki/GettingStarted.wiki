@@ -30,4 +30,4 @@ import numpy as np
 import ironplot as ip
 ip.plot(np.sin(np.arange(0, 10, 0.1)))
 </code>
-to check this is working. Then look at Examples\!NumpyPlot for more examples.
+to check this is working. Then look at Examples for more examples.
