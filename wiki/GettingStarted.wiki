@@ -2,7 +2,7 @@
 
 = Requirements =
 !IronLab runs on .NET 4.0.
-Some features (e.g. thick 3D lines) require the  [http://www.microsoft.com/en-us/download/details.aspx?id=35 DirectX End-User Runtime]. IronLab is only tested against Windows 7, although has been run successfully on other systems.
+Some features (e.g. thick 3D lines) require the  [http://www.microsoft.com/en-us/download/details.aspx?id=35 DirectX End-User Runtime]. !IronLab is only tested against Windows 7, although has been run successfully on other systems.
 
 !IronLab is built using Visual Studio 2010. 
 
@@ -15,7 +15,7 @@ There is a released set of binaries, although the recommendation is to obtain th
   # Download complete source code from Trunk.
   # Visual Studio 2010 solution file and build all.
   # Set !IronPythonConsole as start-up project and run.
-  # !PlotSample gives some examples of using the !IronPlot library from C# rather than from !IronPython. Try running .py files in Examples. Only non-NumPy examples will work without NumPy.
+  # !PlotSample gives some examples of using the !IronPlot library from C# rather than from !IronPython. Try running .py files in Examples. Only non-NumPy examples will work without !NumPy.
 
 == Adding !NumPy and !SciPy ==
 An example configuration is provided in the !IronLab zip file.
